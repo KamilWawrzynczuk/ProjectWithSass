@@ -1,0 +1,8 @@
+@for $i from 1 through 9 {
+    main div:nth-child(#{$i}) {
+      background-image: url("../images/student-#{$i}.jpeg");
+      background-position: center;
+      background-size: cover;
+      border-radius: $border-radius;
+    }
+  }

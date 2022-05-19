@@ -1,0 +1,11 @@
+@mixin header-footer {
+  background-color: $color-header-footer;
+  width: 100%;
+  padding: 10rem;
+}
+
+@mixin display-flex($align) {
+  display: flex;
+  justify-content: space-between;
+  align-items: $align;
+}
